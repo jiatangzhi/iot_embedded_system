@@ -14,12 +14,15 @@ The project was developed in three phases.
 3. The report was written to document and explain all the processes in the IoT project.
 
 ### Use Case Diagram
-![**Figure 1**. Use Case Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/use_case_diagram.png)
+<div align="center">
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/use_case_diagram.png" alt="**Figure 1**. Use Case Diagram" width="300"/>
+</div>
 
 ### Activity Diagrams
-![**Figure 2**. Activity Diagram for Uploading the data](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/activity_diagram_1.png)
-
-![**Figure 3**. Activity Diagram for Real-time Temperature & Humidity data](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/activity_diagram_2.png)
+<div align="center">
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/activity_diagram_1.png" alt="**Figure 2**. Activity Diagram for Uploading the data" width="300" style="display: inline-block;"/>
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/activity_diagram_2.png" alt="**Figure 3**. Activity Diagram for Real-time Temperature & Humidity data" width="300" style="display: inline-block;"/>
+</div>
 
 ### Database Diagram
 This database diagram represents a table named temp_and_humidity. This table has three columns, each with its own data type:
@@ -34,7 +37,9 @@ The table structure is designed to store time-series data of temperature and hum
 </div>
 
 ### Hardware Diagram
-![**Figure 4**. Hardware Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png)
+<div align="center">
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png" alt="**Figure 4**. Hardware Diagram" width="300"/>
+</div>
 
 ## RESTFUL Service Methods
 Our Flask application includes three primary RESTful service methods:
