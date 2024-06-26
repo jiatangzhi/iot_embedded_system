@@ -21,10 +21,18 @@ The project was developed in three phases.
 
 ![**Figure 3**. Activity Diagram for Real-time Temperature & Humidity data](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/activity_diagram_2.png)
 
+### Database Diagram
+This database diagram represents a table named temp_and_humidity. This table has three columns, each with its own data type:
+
+timestamp: This column is of type datetime, which is used to store date and time information. It records when the temperature and humidity data were captured.
+temperature_celsius: This column is of type float, which is used to store floating-point numbers. It records the temperature in degrees Celsius.
+humidity: This column is also of type float. It records the humidity level as a floating-point number.
+
+The table structure is designed to store time-series data of temperature and humidity readings.
+![**Figure 5**. Database Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/database_diagram.png)
 
 ### Hardware Diagram
 ![**Figure 4**. Hardware Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png)
-
 
 ## RESTFUL Service Methods
 Our Flask application includes three primary RESTful service methods:
@@ -37,16 +45,6 @@ This endpoint retrieves the latest temperature and humidity readings along with 
 
 3. GET /readings:
 This endpoint renders an HTML template that displays daily statistics about the temperature and humidity readings. It fetches and presents data such as the earliest and latest timestamps, the minimum and maximum temperature, and the minimum and maximum humidity recorded for the day. This offers a comprehensive summary of the day's environmental data.
-
-### Database Diagram
-This database diagram represents a table named temp_and_humidity. This table has three columns, each with its own data type:
-
-timestamp: This column is of type datetime, which is used to store date and time information. It records when the temperature and humidity data were captured.
-temperature_celsius: This column is of type float, which is used to store floating-point numbers. It records the temperature in degrees Celsius.
-humidity: This column is also of type float. It records the humidity level as a floating-point number.
-
-The table structure is designed to store time-series data of temperature and humidity readings.
-![**Figure 5**. Database Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/database_diagram.png)
 
 ---
 ## Appendix
