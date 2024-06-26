@@ -38,7 +38,7 @@ The table structure is designed to store time-series data of temperature and hum
 
 ### Hardware Diagram
 <div align="center">
-  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png" alt="**Figure 4**. Hardware Diagram" width="500"/>
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png" alt="**Figure 4**. Hardware Diagram" width="800"/>
 </div>
 
 ## RESTFUL Service Methods
