@@ -25,7 +25,7 @@ The project was developed in three phases.
 </div>
 
 ### Database Diagram
-This database diagram represents a table named temp_and_humidity. This table has three columns, each with its own data type:
+This database diagram represents a table named `temp_and_humidity`. This table has three columns, each with its own data type:
 
 timestamp: This column is of type datetime, which is used to store date and time information. It records when the temperature and humidity data were captured.
 temperature_celsius: This column is of type float, which is used to store floating-point numbers. It records the temperature in degrees Celsius.
@@ -44,14 +44,14 @@ The table structure is designed to store time-series data of temperature and hum
 ## RESTFUL Service Methods
 Our Flask application includes three primary RESTful service methods:
 
-1. POST /new:
-\nThis endpoint accepts a JSON payload to insert a new temperature and humidity reading into the SQL database. It also updates global variables to store the latest readings. This ensures that the most recent sensor data is always readily available.
+1. POST /new:<br>
+This endpoint accepts a JSON payload to insert a new temperature and humidity reading into the SQL database. It also updates global variables to store the latest readings. This ensures that the most recent sensor data is always readily available.
 
-2. GET /temperature:
-\nThis endpoint retrieves the latest temperature and humidity readings along with their timestamps. If no temperature data is found, it returns a `404 Not Found` error with the message *No temperature data available*. This provides a straightforward mechanism for clients to access the most recent environmental conditions.
+2. GET /temperature:<br>
+This endpoint retrieves the latest temperature and humidity readings along with their timestamps. If no temperature data is found, it returns a `404 Not Found` error with the message *No temperature data available*. This provides a straightforward mechanism for clients to access the most recent environmental conditions.
 
-3. GET /readings:
-\nThis endpoint renders an HTML template that displays daily statistics about the temperature and humidity readings. It fetches and presents data such as the earliest and latest timestamps, the minimum and maximum temperature, and the minimum and maximum humidity recorded for the day. This offers a comprehensive summary of the day's environmental data.
+3. GET /readings:<br>
+This endpoint renders an HTML template that displays daily statistics about the temperature and humidity readings. It fetches and presents data such as the earliest and latest timestamps, the minimum and maximum temperature, and the minimum and maximum humidity recorded for the day. This offers a comprehensive summary of the day's environmental data.
 
 ---
 ## Appendix
