@@ -15,7 +15,7 @@ The project was developed in three phases.
 
 ### Use Case Diagram
 <div align="center">
-  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/use_case_diagram.png" alt="**Figure 1**. Use Case Diagram" width="300"/>
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/use_case_diagram.png" alt="**Figure 1**. Use Case Diagram" width="500"/>
 </div>
 
 ### Activity Diagrams
@@ -38,7 +38,7 @@ The table structure is designed to store time-series data of temperature and hum
 
 ### Hardware Diagram
 <div align="center">
-  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png" alt="**Figure 4**. Hardware Diagram" width="300"/>
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png" alt="**Figure 4**. Hardware Diagram" width="500"/>
 </div>
 
 ## RESTFUL Service Methods
