@@ -38,13 +38,13 @@ The table structure is designed to store time-series data of temperature and hum
 Our Flask application includes three primary RESTful service methods:
 
 1. POST /new:
-This endpoint accepts a JSON payload to insert a new temperature and humidity reading into the SQL database. It also updates global variables to store the latest readings. This ensures that the most recent sensor data is always readily available.
+\nThis endpoint accepts a JSON payload to insert a new temperature and humidity reading into the SQL database. It also updates global variables to store the latest readings. This ensures that the most recent sensor data is always readily available.
 
 2. GET /temperature:
-This endpoint retrieves the latest temperature and humidity readings along with their timestamps. If no temperature data is found, it returns a 404 Not Found error with the message "No temperature data available". This provides a straightforward mechanism for clients to access the most recent environmental conditions.
+\nThis endpoint retrieves the latest temperature and humidity readings along with their timestamps. If no temperature data is found, it returns a `404 Not Found` error with the message *No temperature data available*. This provides a straightforward mechanism for clients to access the most recent environmental conditions.
 
 3. GET /readings:
-This endpoint renders an HTML template that displays daily statistics about the temperature and humidity readings. It fetches and presents data such as the earliest and latest timestamps, the minimum and maximum temperature, and the minimum and maximum humidity recorded for the day. This offers a comprehensive summary of the day's environmental data.
+\nThis endpoint renders an HTML template that displays daily statistics about the temperature and humidity readings. It fetches and presents data such as the earliest and latest timestamps, the minimum and maximum temperature, and the minimum and maximum humidity recorded for the day. This offers a comprehensive summary of the day's environmental data.
 
 ---
 ## Appendix
