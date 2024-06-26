@@ -29,7 +29,9 @@ temperature_celsius: This column is of type float, which is used to store floati
 humidity: This column is also of type float. It records the humidity level as a floating-point number.
 
 The table structure is designed to store time-series data of temperature and humidity readings.
-![**Figure 5**. Database Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/database_diagram.png)
+<div align="center">
+  <img src="https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/database_diagram.png" alt="**Figure 5**. Database Diagram" width="300"/>
+</div>
 
 ### Hardware Diagram
 ![**Figure 4**. Hardware Diagram](https://github.com/jiatangzhi/iot_embedded_system/blob/main/images/hardware_diagram.png)
