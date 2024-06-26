@@ -60,13 +60,16 @@ Latest temperature readings:
 
 Locally saved sensor readings on SD Card:
 ```json
-{"temp": 27.6, "humidity": 51.0, "timestamp": "2024-06-22 18:19:17"}
+{"temp": 27.6, "humidity": 52.0, "timestamp": "2024-06-22 18:17:46"}
+{"temp": 27.6, "humidity": 51.0, "timestamp": "2024-06-22 18:18:46"}
+```
 
-SQL Table CREATE Statement
+### SQL Table
+
+```sql
 CREATE TABLE `temp_and_humidity` (
   `timestamp` datetime NOT NULL,
   `temperature_celsius` float NOT NULL,
   `humidity` float NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 ```
-
